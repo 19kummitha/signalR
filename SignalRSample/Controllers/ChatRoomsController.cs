@@ -18,9 +18,9 @@ namespace SignalRSample.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public ChatRoomsController(ApplicationDbContext context)
+        public ChatRoomsController(ApplicationDbContext Context)
         {
-            _context = context;
+            _context = Context;
         }
 
         // GET: api/ChatRooms
